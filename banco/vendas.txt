@@ -1,0 +1,43 @@
+===Base de Dados vendas
+
+== Estrutura da tabela nota
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|idVendedor|int(11)|Não|
+|idVenda|int(11)|Não|
+|idProduto|int(11)|Não|
+|Quantidade|int(11)|Não|
+== Extraindo dados da tabela nota
+
+== Estrutura da tabela produtos
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**idProduto**//|int(11)|Não|
+|descricaoProduto|varchar(50)|Não|
+|valorProduto|float|Não|
+|validade|date|Não|
+== Extraindo dados da tabela produtos
+
+== Estrutura da tabela venda
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**idVenda**//|int(11)|Não|
+|dataVenda|date|Não|
+|valor|float|Não|
+== Extraindo dados da tabela venda
+
+== Estrutura da tabela vendedor
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**idVendedor**//|int(11)|Não|
+|nomeVendedor|varchar(50)|Não|
+== Extraindo dados da tabela vendedor
+
